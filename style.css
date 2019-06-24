@@ -474,6 +474,7 @@ a {
 .redeem-btn{
   color: white;
     background: #433881;
+        width: 100%;
 }
 
 .profile-badge{
