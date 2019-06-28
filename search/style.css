@@ -1,0 +1,54 @@
+.container{
+	width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.search-input-section{
+	    padding: 63px 90px 30px 90px;
+    background: url('../login/bg-tb-b.png') right bottom no-repeat, url('../login/bg-tb-t.png'), linear-gradient(0deg, #433881, #332b60);
+}
+
+.search-input-box{
+	max-width: 560px;
+	    margin: auto;
+    box-shadow: 0 0 20px 16px #00000014;
+}
+
+.search-input-heading{
+	    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+
+@media (max-width: 700px) {
+.search-input-box{
+	max-width: 100%;
+}
+
+.search-input-section{
+	    padding: 63px 10px 70px 10px;
+	}
+
+}
+
+
+.search-filter-section{
+	padding: 20px;
+    display: flex;
+    justify-content: center;
+        padding-top: 32px;
+        color:white;
+}
+
+.search-filter-options{
+	    vertical-align: middle;
+    background: #0000001f;
+    padding-top: 13px;
+    padding-left: 13px;
+    border-radius: 6px;
+}
